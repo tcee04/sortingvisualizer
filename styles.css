@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button, select {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 80%;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.array-bar {
+    margin: 0 2px;
+    background-color: #3498db;
+    width: 10px;
+}
+
+#comparisonCount {
+    margin-top: 20px;
+    font-size: 18px;
+}
